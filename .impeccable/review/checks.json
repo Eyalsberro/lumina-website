@@ -1,0 +1,34 @@
+{
+  "routes": [
+    "/",
+    "/services/",
+    "/about/",
+    "/fees/",
+    "/get-started/",
+    "/our-approach/"
+  ],
+  "widths": [
+    1440,
+    390,
+    320,
+    768,
+    1024,
+    1280,
+    1600
+  ],
+  "internalLinks": 26,
+  "checks": [
+    "route export",
+    "unique page heading",
+    "current navigation",
+    "no overflow",
+    "loaded imagery",
+    "mobile menu and Escape focus",
+    "internal routes and anchors",
+    "keyboard FAQs",
+    "all four endorsements and keyboard carousel",
+    "explicit booking placeholder",
+    "no request collection",
+    "no browser errors"
+  ]
+}
