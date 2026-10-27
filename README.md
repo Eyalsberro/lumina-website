@@ -44,6 +44,12 @@ The site uses Next.js static export, standard page links, mobile navigation, nat
 
 Reference: https://developers.cloudflare.com/pages/framework-guides/nextjs/deploy-a-static-nextjs-site/
 
+### If deployment fails
+
+Create the project through **Workers & Pages → Create application → Pages → Import an existing Git repository**. The GitHub check named **Workers Builds** belongs to a Workers project, not a Pages project.
+
+Use the **Next.js (Static HTML Export)** preset, override the build command to `npm run build`, set the build output directory to `out`, and leave the root directory empty. Keep `output: "export"` in `next.config.ts`: `output: "standalone"` builds a Node server rather than the static files this Pages setup needs. No Next.js adapter or Wrangler deploy command is required for this static Pages site.
+
 ## Files
 
 - `components/homepage.tsx`: homepage content and interactions.
