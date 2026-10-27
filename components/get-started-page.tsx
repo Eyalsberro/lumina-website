@@ -15,7 +15,7 @@ export default function GetStartedPage() {
         <aside className="intake-panel" aria-labelledby="intake-heading">
           <MessageCircle size={32} strokeWidth={1.2} aria-hidden="true" />
           <h2 id="intake-heading">Let’s find<br /><em>the right fit.</em></h2><p>An initial intake call is a chance to discuss your concerns, your child’s needs, and whether Lumina Speech and Development is the right fit for your family.</p>
-          <div className="intake-status"><strong>Scheduling is coming soon.</strong><p>Online booking isn’t connected yet. Appointment requests aren’t being collected through this preview.</p></div>
+          <div className="intake-status"><strong>Your scheduling link goes here.</strong><p>Add your Cal.com or Calendly link here so families can book an intake call.</p></div>
           <a className="text-link" href="https://www.instagram.com/luminaspeechanddevelopment/" target="_blank" rel="noopener noreferrer">Visit Lumina on Instagram <ArrowUpRight size={17} aria-hidden="true" /></a>
           <p className="intake-footnote">Please keep social messages to general questions. Clinical details can be discussed during intake.</p>
         </aside>

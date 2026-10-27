@@ -111,6 +111,8 @@ export default function SiteFrame({
               Helping every child find their voice.
               <br />
               And their own way to shine.
+              <br/>
+              Illiana@youremail.com
             </p>
             <div className="footer-socials" role="group" aria-label="Social profiles">
             <a
