@@ -40,7 +40,7 @@ The build writes the complete static site to `out/`. Deploy that folder to Cloud
 - Build output directory: `out`.
 - Node.js version: 22.13 or newer.
 
-The site uses Next.js static export, standard page links, mobile navigation, native disclosure elements, and a manual testimonial carousel. Fonts and images are hosted locally. No server or database is required for the preview.
+The site uses Next.js static export, standard page links, mobile navigation, native disclosure elements, and a manual testimonial carousel. Fonts and images are hosted locally. No server or database is required. The homepage's automatic Instagram carousel uses a published Elfsight public-account widget, without Instagram login or API tokens. Its public widget ID is included in the project. See [Instagram feed setup](docs/instagram-feed.md) for settings, the optional override, and the Free plan's view limit.
 
 Reference: https://developers.cloudflare.com/pages/framework-guides/nextjs/deploy-a-static-nextjs-site/
 

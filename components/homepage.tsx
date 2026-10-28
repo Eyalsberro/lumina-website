@@ -1,6 +1,7 @@
 "use client";
 
 import TestimonialCarousel from "./testimonial-carousel";
+import InstagramCarousel from "./instagram-carousel";
 import SiteFrame from "./site-frame";
 import { neighborhoods, serviceGroups } from "../lib/practice";
 import { fees, sessionPriceRange } from "../lib/fees";
@@ -370,6 +371,8 @@ export default function Homepage() {
               </div>
             </div>
           </section>
+
+          <InstagramCarousel />
 
           <section
             className="contact-section"
